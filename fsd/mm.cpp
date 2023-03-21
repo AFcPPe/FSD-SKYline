@@ -50,7 +50,7 @@ mm::mm()
    {
       char *buf=wentry->getdata();
       if (!STRCASECMP(buf,"passive")) passivemode=1; else
-      if (!STRCASECMP(buf,"ative")) passivemode=0;
+      if (!STRCASECMP(buf,"active")) passivemode=0;
    }
 	
    wgroup=configman->getgroup("system");
